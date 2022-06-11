@@ -21,6 +21,10 @@ const respostas = [
   'Só um minuto, deu boi na linha...',
   'Pode celebrar! é siiiim'
 ]
+var x = document.getElementById("som");
+function mouseOver(){
+  x.play();
+}
 
 // clicar em fazer pergunta
 function fazerPergunta() {
